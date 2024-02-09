@@ -1,0 +1,236 @@
+.task {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  margin-bottom: 15px;
+  box-shadow: 0 0 4px #336791;
+  transition: background-color 0.3s;
+}
+
+.task:hover {
+  box-shadow: 0 0 8px rgb(51, 103, 145, 0.9);
+}
+
+.task.complete {
+  background-color: green;
+}
+
+.task.notCompleted {
+  background-color: red;
+}
+
+.task.expired {
+  background-color: red; /* You can adjust the color for expired tasks */
+}
+
+.task.complete .myTaskTitle,
+.task.complete .myTaskDescription,
+.task.complete .myTaskDeadline,
+.task.complete .myTaskStatus,
+.task.complete .set-reminder,
+.task.complete .setRemainderButton,
+.task.complete .complete,
+.task.complete .markTaskCompleteButton,
+.task.notCompleted .myTaskTitle,
+.task.notCompleted .myTaskDescription,
+.task.notCompleted .myTaskDeadline,
+.task.notcompleted .myTaskStatus,
+.task.notcompleted .set-reminder,
+.task.notcompleted .setRemainderButton,
+.task.notcompleted .complete,
+.task.notcompleted .markTaskCompleteButton,
+.task.expired .myTaskTitle,
+.task.expired .myTaskDescription,
+.task.expired .myTaskDeadline,
+.task.expired .myTaskStatus,
+.task.expired .set-reminder,
+.task.expired .setRemainderButton,
+.task.expired .complete,
+.task.expired .markTaskCompleteButton {
+  color: white;
+}
+
+.myTaskTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.myTaskDescription {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+
+.myTaskDeadline {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 0.25rem;
+}
+
+.RemainderAndComplete {
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  /* border: 2px solid green; */
+}
+
+.setRemainderButton {
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  background: none;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.markTaskCompleteButton {
+  background: none;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.EditAndDelete {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  margin-left: 1rem;
+}
+
+.editTaskButton {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 2rem;
+  transition: background-color 0.3s;
+}
+
+.editTaskButton:hover {
+  background-color: #356ac3;
+}
+
+/* Delete Task Button */
+.deleteTaskButton {
+  background-color: #d9534f; /* Red */
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.deleteTaskButton:hover {
+  background-color: #c9302c;
+}
+
+
+/* Task.css */
+
+.edit-mode {
+  /* border: 2px solid #007bff; */
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.edit-mode input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 2px solid #336791;
+  border-radius: 0.3rem;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #336791;
+  box-shadow: 0 0 5px #336791;
+}
+
+.edit-mode textarea {
+  height: 2.5rem;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 2px solid #336791;
+  border-radius: 0.3rem;
+}
+
+textarea:focus {
+  outline: none;
+  border: 2px solid #336791;
+  box-shadow: 0 0 5px #336791;
+}
+
+.editButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 0.5rem;
+}
+
+.SaveButton {
+  background-color: #28a745;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.SaveButton:hover {
+  background-color: #218838;
+}
+
+.CancelButton {
+  background-color: rgb(252, 53, 53);
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.CancelButton:hover {
+  background-color: red; /* Darker green on hover */
+}
+
+.set-reminder {
+  color: #336791;
+  margin-right: 0.5rem;
+}
+
+.complete {
+  color: #336791;
+  margin-right: 0.5rem;
+}
+
+.edit {
+  color: white;
+  margin-right: 0.5rem;
+}
+
+.delete {
+  color: white;
+  margin-right: 0.5rem;
+}

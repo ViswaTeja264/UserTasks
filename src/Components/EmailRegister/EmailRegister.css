@@ -1,0 +1,196 @@
+.emailRegister {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    display: block;
+    height: 100vh;
+    width: 55vw;
+}
+
+.registerSection {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    /* color: #336791; */
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+}
+
+.description {
+    letter-spacing: 0.02rem;
+    margin-bottom: 2rem;
+}
+
+.registerForm {
+    width: 22.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formName {
+    height: 2.5rem;
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1.2rem;
+    /* border: 2px solid green; */  
+}
+
+.firstname {
+    width: 15vw;
+    border-radius: 0.3rem;
+    padding-left: 0.5rem;
+    border: 2px solid #336791;
+}
+
+.firstname:focus {
+    outline: none;
+    border: 2px solid #336791;
+    box-shadow: 0 0 3px #336791
+}
+
+.lastname {
+    width: 15vw;
+    border-radius: 0.3rem;
+    padding-left: 0.5rem;
+    border: 2px solid #336791;
+}
+
+.lastname:focus {
+    outline: none;
+    border: 2px solid #336791;
+    box-shadow: 0 0 3px #336791
+}
+
+.formEmail {
+    height: 2.5rem;
+    width: 30vw;
+    margin-bottom: 1.2rem;
+    border-radius: 0.3rem;
+    padding-left: 0.5rem;
+    border: 2px solid #336791;
+}
+
+.formEmail:focus {
+    outline: none;
+    border: 2px solid #336791;
+    box-shadow: 0 0 3px #336791
+}
+
+.formPhone {
+    height: 2.5rem;
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1.2rem;
+    /* border: 2px solid green; */  
+}
+
+.countryCode {
+    width: 4.5vw;
+    border-radius: 0.3rem;
+    padding-left: 0.5rem;
+    border: 2px solid #336791;
+}
+
+.countryCode:focus {
+    outline: none;
+    border: 2px solid #336791;
+    box-shadow: 0 0 3px #336791
+}
+
+.phonenumber {
+    width: 25.5vw;
+    border-radius: 0.3rem;
+    padding-left: 0.5rem;
+    border: 2px solid #336791;
+}
+
+.phonenumber:focus {
+    outline: none;
+    border: 2px solid #336791;
+    box-shadow: 0 0 3px #336791
+}
+
+.formPassword {
+    height: 2.5rem;
+    width: 30vw;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    padding-left: 0.5rem;
+    border: 2px solid #336791;
+}
+
+.formPassword:focus {
+    outline: none;
+    border: 2px solid #336791;
+    box-shadow: 0 0 3px #336791
+}
+
+.termsAndCondition {
+    width: 30vw;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.TandC-Checkbox {
+    height: 0.9rem;
+    width: 1rem;
+    cursor: pointer;
+}
+
+.TandC-Checkbox:focus {
+    outline: none;
+    border: 2px solid #336791;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5)
+}
+
+.TandC-Label {
+    padding-left: 0.5rem;
+}
+
+.TandC-Link {
+    color: #336791;
+}
+
+.formSubmitButton {
+    height: 2.5rem;
+    width: 30vw;
+    border: none;
+    color: white;
+    cursor: pointer;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    border-radius: 0.3rem;
+    margin-bottom: 1.5rem;
+    background-color: rgba(51, 103, 145, 0.912);
+}
+
+.formSubmitButton:focus {
+    outline: none;
+    border: 2px solid #336791;
+    box-shadow: 0 0 7px rgba(0, 123, 255, 0.5)
+}
+
+.alreadyHaveAccount {
+    letter-spacing: 0.05rem;
+}
+
+.formLoginButton {
+    color: #336791;
+}

@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  display: block;
+  height: 100vh;
+  width: 55vw;
+}
+
+.loginSection {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Logintitle {
+  /* color: #336791; */
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 0.05rem;
+}
+
+.emailWithIcon {
+  position: relative;
+}
+
+.emailWithIcon i {
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  left: 0;
+  top: 0;
+  margin: 0.8rem;
+}
+
+.loginEmail {
+  width: 22.5vw;
+  height: 2.5rem;
+  border: 2px solid #336791;
+  margin-bottom: 1.2rem;
+  padding-left: 2.3rem;
+  border-radius: 0.2rem;
+}
+
+.loginEmail:focus {
+  outline: none;
+  border: 2px solid #336791;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.passwordWithIcon {
+  position: relative;
+}
+
+.passwordWithIcon i {
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  left: 0;
+  top: 0;
+  margin: 0.8rem;
+}
+
+.loginPassword {
+  width: 22.5vw;
+  height: 2.5rem;
+  border: none;
+  border: 2px solid #336791;
+  margin-bottom: 0.7rem;
+  padding-left: 2.3rem;
+  border-radius: 0.2rem;
+}
+
+.loginPassword:focus {
+  outline: none;
+  border: 2px solid #336791;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.RememberAndForgot {
+  width: 22.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.rememberMeCheckBox {
+  height: 0.9rem;
+  width: 1rem;
+  cursor: pointer;
+}
+
+.rememberMeCheckBox:focus {
+  outline: none;
+  border: 2px solid #336791;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.rememberMeLabel {
+  margin-left: 0.3rem;
+  line-height: 1rem;
+  letter-spacing: 0.05rem;
+  font-weight: 350;
+  font-size: 14px;
+  /* color: #336791; */
+}
+
+.forgotPasswordLink {
+  text-decoration: none;
+  line-height: 1rem;
+  letter-spacing: 0.05rem;
+  font-weight: 350;
+  font-size: 14px;
+  /* color: #336791; */
+}
+
+.forgotPasswordLink:hover {
+  text-decoration: underline;
+}
+
+.loginButton {
+  height: 2.5rem;
+  width: 22.5vw;
+  background-color: rgba(51, 103, 145, 0.912);
+  border: none;
+  border-radius: 0.2rem;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  box-shadow: 0 0 7px rgba(0, 123, 255, 0.5);
+}
+
+.loginButton:focus {
+  outline: none;
+  box-shadow: 0 0 7px rgba(0, 123, 255, 0.5);
+}
+
+.loginButton p {
+  color: white;
+  line-height: 2rem;
+  letter-spacing: 0.17rem;
+}
+
+.orLoginWith {
+  /* color: #336791; */
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 0.05rem;
+}
+
+.loginSocialIcons {
+  width: 22.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+  cursor: pointer;
+}
+
+i {
+  color: #336791;
+}
+
+.register {
+  font-size: 14px;
+  letter-spacing: 0.05rem;
+}
+
+.registerLink {
+  color: #336791;
+  /* margin-left: 0.3rem; */
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.registerLink:hover {
+  text-decoration: underline;
+}

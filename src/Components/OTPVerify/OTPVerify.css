@@ -1,0 +1,72 @@
+.OTPVerify {
+  display: flex;
+  flex-direction: row;
+}
+
+.otpVerifyImage {
+  display: block;
+  height: 100vh;
+  width: 55vw;
+}
+
+.otpVerifySection {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.otpVerifyTitle {
+  /* color: #336791; */
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 0.05rem;
+}
+
+.otpVerifyDescription {
+  width: 27vw;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.025rem;
+}
+
+.otpBox {
+  width: 2rem;
+  height: 2rem;
+  outline: none;
+  font-size: 16px;
+  margin: 0 0.3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border: 2px solid white;
+  border-bottom: 2px solid #336791;
+}
+
+.otpBox:focus {
+  outline: none;
+  border-bottom: 2px solid #336791;
+}
+
+.otpVerifyButton {
+  height: 2rem;
+  width: 7rem;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  border-radius: 0.25rem;
+  letter-spacing: 0.05rem;
+  border: 2px solid #336791;
+  background-color: #336791;
+}
+
+.emailNotReceived {
+    width: 30vw;
+    text-align: center;
+    letter-spacing: 0.02rem;
+}
+
+.resendOTP {
+    color: #336791;
+}

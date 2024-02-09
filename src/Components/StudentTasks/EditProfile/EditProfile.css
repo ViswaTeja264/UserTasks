@@ -1,0 +1,269 @@
+.editprofile {
+  width: 100vw;
+  max-width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.BasicDetails {
+  position: relative;
+  border-radius: 1rem;
+}
+
+.backgroundImage {
+  height: 10rem;
+  width: 100vw;
+  max-width: 80vw;
+  position: relative;
+}
+
+.bgImage {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 0.8rem;
+}
+
+.editBGButton {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 0 7px rgba(51, 103, 145, 0.7);
+}
+
+.profileWrapper {
+  top: 230%;
+  left: 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.profileImage {
+  width: 11rem;
+  height: 11rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 4px solid white;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px black;
+}
+
+.pImage {
+  width: 10.5rem;
+  height: 10.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.editProfileButton {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 7px rgba(51, 103, 145, 0.7);
+}
+
+.editContentButton {
+  position: absolute;
+  top: 140px;
+  right: -922px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  box-shadow: 0 0 7px rgba(51, 103, 145, 0.7);
+}
+
+.profileContent {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 3.5rem;
+}
+
+.MyName {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.designation {
+  font-weight: 300;
+}
+
+.editProfileEmailSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.editProfileEmailSection i {
+  color: #336791;
+}
+
+.myEmail {
+  margin-left: 0.5rem;
+  font-weight: 300;
+}
+
+.editProfilePhoneSection {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 0.25rem;
+}
+
+.editProfilePhoneSection i {
+  color: #336791;
+}
+
+.myPhone {
+  margin-left: 0.5rem;
+  font-weight: 300;
+}
+
+.editProfileAboutSection {
+  width: 100vw;
+  max-width: 80vw;
+  margin: 0 auto;
+  margin-top: 25rem;
+  padding-left: 3.5rem;
+  padding-right: 4rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.editAboutButton {
+  position: absolute;
+  top: -10px;
+  right: 2px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  box-shadow: 0 0 7px rgba(51, 103, 145, 0.7);
+}
+
+.myAbout {
+  width: 100%;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  border-radius: 1rem;
+  border: 2px solid rgb(51, 103, 145);
+  box-shadow: 0 0 3px rgba(51, 103, 145, 0.6);
+}
+
+.editAboutButtonWrapper {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.aboutData {
+  margin-top: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.025rem;
+}
+
+/* Add these styles to your existing CSS file */
+
+.inputsAndButtonsEditMode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50rem;
+}
+
+.myinputs {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.mybuttons {
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for the input fields */
+.profileContent input {
+  width: 15rem;
+  margin-bottom: 1rem;
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #336791;
+  border-radius: 0.3rem;
+}
+
+/* Styles for the "Save" button */
+.SaveButton {
+  background-color: #336791; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px 15px; /* Padding around the text */
+  font-size: 16px; /* Font size */
+  border: none; /* Remove border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border: 2px solid #336791;
+  border-radius: 0.3rem;
+}
+
+.SaveButton:hover {
+  opacity: 0.9;
+  background-color: #336791;
+}
+
+.myAboutTextArea {
+  height: 20rem;
+  width: 69rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid #336791;
+  box-shadow: 0 0 3px #336791;
+}
+
+.saveAboutButton {
+  height: 2rem;
+  width: 3rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  border: 2px solid #336791;
+  background-color: #336791;
+  box-shadow: 0 0 3px #336791;
+  letter-spacing: 0.02rem;
+}

@@ -1,0 +1,206 @@
+.register {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    display: block;
+    height: 100vh;
+    width: 55vw;
+}
+
+.registerSection {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerTitle {
+    /* color: #336791; */
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+}
+
+.registerDescription {
+    margin-bottom: 2rem;
+}
+
+.registerSocialIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.google {
+    height: 2.5rem;
+    width: 22.5vw;
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: rgba(244, 51, 30, 0.873);
+    /* border: 2px solid green; */
+}
+
+.google:focus {
+    outline: none;
+    box-shadow: 0 0 7px rgba(244, 51, 30, 0.873)
+}
+
+.google-logo {
+    margin-right: 1rem;
+    color: white;
+}
+
+.googleText {
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 0.05rem;
+}
+
+.facebook {
+    height: 2.5rem;
+    width: 22.5vw;
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: rgba(21, 71, 151, 0.911);
+    /* border: 2px solid green; */
+}
+
+.facebook:focus {
+    outline: none;
+    box-shadow: 0 0 7px rgba(21, 71, 151, 0.911)
+}
+
+.facebook-logo {
+    margin-right: 1rem;
+    color: white;
+}
+
+.facebookText {
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 0.05rem;
+}
+
+.linkedin {
+    height: 2.5rem;
+    width: 22.5vw;
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: rgba(13, 103, 159, 0.982);
+    /* border: 2px solid green; */
+}
+
+.linkedin:focus {
+    outline: none;
+    box-shadow: 0 0 7px rgba(13, 103, 159, 0.982)
+}
+
+.linkedin-logo {
+    margin-right: 1rem;
+    color: white;
+}
+
+.linkedinText {
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 0.05rem;
+}
+
+.apple {
+    height: 2.5rem;
+    width: 22.5vw;
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: black;
+    /* border: 2px solid green; */
+}
+
+.apple:focus {
+    outline: none;
+    box-shadow: 0 0 7px black
+}
+
+.apple-logo {
+    margin-right: 1rem;
+    color: white;
+}
+
+.appleText {
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 0.05rem;
+}
+
+.registerEmail {
+    height: 2.5rem;
+    width: 22.5vw;
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0.3rem;
+    border: 2px solid #336791;
+}
+
+.registerEmail:focus {
+    outline: none;
+    box-shadow: 0 0 7px #336791
+}
+
+.email-logo {
+    margin-right: 1rem;
+    color: #336791;
+}
+
+.emailText {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #336791;
+    letter-spacing: 0.05rem;
+}
+
+.alreadyhaveAccount {
+    margin-top: 2rem;
+}
+
+.loginLink {
+    cursor: pointer;
+    color: #336791;
+}
